@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\posix">
+      <UniqueIdentifier>{e10eb0b5-f0f6-4c21-a029-f412dae3da45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\posix\arpa">
+      <UniqueIdentifier>{37e07c6d-1c2a-4650-82eb-c31c7e0fa06d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\posix\netinet">
+      <UniqueIdentifier>{855c402e-f799-4fed-863d-f2913a513de1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\posix\sys">
+      <UniqueIdentifier>{6d6dcdd7-295b-4961-b65f-1be77112a90c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\posix\arpa\inet.h">
+      <Filter>源文件\posix\arpa</Filter>
+    </ClInclude>
+    <ClInclude Include="..\posix\netinet\in.h">
+      <Filter>源文件\posix\netinet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\posix\netinet\tcp.h">
+      <Filter>源文件\posix\netinet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\posix\sys\file.h">
+      <Filter>源文件\posix\sys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\posix\sys\socket.h">
+      <Filter>源文件\posix\sys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\posix\atomic_lock.h">
+      <Filter>源文件\posix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\posix\dlfcn.h">
+      <Filter>源文件\posix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\posix\pthread.h">
+      <Filter>源文件\posix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\posix\sched.h">
+      <Filter>源文件\posix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\posix\semaphore.h">
+      <Filter>源文件\posix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\posix\unistd.h">
+      <Filter>源文件\posix</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\posix\atomic_lock.c">
+      <Filter>源文件\posix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\posix\dlfcn.c">
+      <Filter>源文件\posix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\posix\unistd.c">
+      <Filter>源文件\posix</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="posix.def">
+      <Filter>源文件</Filter>
+    </None>
+  </ItemGroup>
+</Project>

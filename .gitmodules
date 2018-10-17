@@ -1,0 +1,6 @@
+[submodule "3rd/jemalloc"]
+	path = 3rd/jemalloc
+	url = https://github.com/jemalloc/jemalloc.git
+[submodule "3rd/luafilesystem"]
+	path = 3rd/luafilesystem
+	url = https://github.com/keplerproject/luafilesystem.git

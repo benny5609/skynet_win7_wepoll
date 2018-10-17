@@ -1,0 +1,19 @@
+message at {
+        optional int32 aa = 1;
+        optional int32 bb = 2;
+        optional string cc = 3;
+}
+
+message atfather {
+	optional at a = 1;
+}
+
+message ServerInfoReq {
+    optional uint32 userid = 1;
+}
+
+message LobbyReqMsg  {
+    optional ServerInfoReq serverinfo_req_msg = 1;
+}
+
+
